@@ -41,3 +41,59 @@ To help students make better career decisions using Artificial Intelligence and 
 👩‍💻 Developed By
 
 Student Developer | CSE - Data Science
+## 📸 Project Screenshots
+
+![Career Guidance Chatbot](cc.jpeg)
+
+
+🛠️ Technologies Used
+
+Technology| Purpose
+Python| Backend programming
+Streamlit| Web application interface
+ChromaDB| Vector database
+TF-IDF| Text feature extraction
+Groq API| AI-powered responses
+LangChain| Language model integration
+PyPDF2| PDF text extraction
+Scikit-learn| Machine learning tools
+
+
+✨ Key Features
+
+1. PDF Upload: Upload career-related PDF documents.
+2. AI Career Guidance: Ask questions and receive AI-generated career advice.
+3. Personalized Recommendations: Get suggestions based on career interests and uploaded information.
+4. Document Processing: Extract and process text from PDF files.
+5. Semantic Search: Retrieve relevant information using ChromaDB and TF-IDF.
+6. Interactive Interface: Simple and user-friendly Streamlit application.
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+
+### 2. Navigate to Project Folder
+
+cd Career-Guidance-Chatbot
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+### 4. Configure API Key
+
+Add your Groq API key securely using Streamlit Secrets.
+
+### 5. Run the Application
+
+streamlit run YOUR_PYTHON_FILE.py
+
+## 📌 Requirements
+
+- Python 3.10 or above
+- Internet connection
+- Groq API key
+
+
